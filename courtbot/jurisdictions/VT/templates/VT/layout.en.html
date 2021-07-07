@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+{% block title %}Vermont{% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('VT.static', filename='VT/style.css') }}">
+{% endblock %}
+
+{% block navStateCode %}VT{% endblock %}
+
+{% block about %}
+      <div class="container">
+        <div class="jumbotron">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h1 class="display-5">About CourtBot VT</h1>
+                <p> Lorem Ipsum ... </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}
+
+{% block faq %}
+      <div class="container">
+        <div class="jumbotron main-bkg">
+          <div class="container">
+            <div class="row">
+              <h1 class="display-5">FAQ</h1>
+              <dl class="list-group">
+                <dt>1. How do I find my Court Case Number?</dt>
+                <dd>If you've been served papers, you should have an ID that starts with "JP13", a dash, a two-digit year, another dash, and six digits.</dd>
+                <dt>2. How do I unsubscribe?</dt>
+                <dd>Text "UNSUB" to the 802-XXX-XXXX from the cell phone you want to unsubscribe.  If you've previously subscribed, you will receive confirmation of being removed.  You can also text OPTOUT to unsubscribe and prevent your number from being added again in the future and you with <em>not</em> receive a confirmation if you opt out.</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}

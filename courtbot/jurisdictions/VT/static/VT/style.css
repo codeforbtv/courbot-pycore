@@ -1,0 +1,23 @@
+.main-bkg {
+  background-color: #371;
+  border-top: 10px solid #27c;
+  border-bottom: 10px solid #27c;
+}
+
+#courtbotlogo {
+  height: 5em;
+  width: 15em;
+}
+
+#stateflag {
+  height: 9em;
+  width: 15em;
+}
+
+.app-links a {
+    background-color: #27c;
+    padding: 0.5em;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+}
