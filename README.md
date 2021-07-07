@@ -11,6 +11,23 @@ A opt-in based service allowing interested parties to receive text-based reminde
     * Open Data Delaware
 * Community Legal Aid Society (CLASI)
 
+## Requirements
+
+- Python 3.9
+- Virtual Environments
+
 ## Usage
 
-Todo...
+```
+# set up virtual environment if you haven't already
+python3 -m venv env
+
+# activate virtual environment
+source env/bin/activate
+
+# install requirements
+pip install -r requirements.txt
+
+# run courtbot locally
+python courtbot.py
+```
