@@ -9,6 +9,7 @@ A opt-in based service allowing interested parties to receive text-based reminde
     * Code for Muskogee
     * Code for Tulsa
     * Open Data Delaware
+    * Code for BTV (Vermont)
 * Community Legal Aid Society (CLASI)
 
 ## Requirements
